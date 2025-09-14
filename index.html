@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teddy Duncan Jr. - Academic CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #1a472a;
+            --secondary-color: #5a7c65;
+            --accent-color: #8b5a3c;
+            --text-color: #2c2c2c;
+            --light-gray: #f5f5f5;
+            --white: #ffffff;
+            --gold: #d4af37;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: var(--white);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
+            position: relative;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: var(--white);
+            padding: 60px 50px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"><path fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2" d="M0,150 Q300,50 600,150 T1200,150"/></svg>') repeat-x;
+            animation: wave 20s linear infinite;
+        }
+
+        @keyframes wave {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-1200px); }
+        }
+
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            position: relative;
+            z-index: 1;
+            font-weight: 300;
+        }
+
+        .title {
+            font-size: 1.4em;
+            margin-bottom: 25px;
+            opacity: 0.95;
+            position: relative;
+            z-index: 1;
+            font-style: italic;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            position: relative;
+            z-index: 1;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1.05em;
+        }
+
+        .contact-item a {
+            color: var(--white);
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .contact-item a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        nav {
+            background: var(--light-gray);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 0 20px;
+        }
+
+        nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            font-size: 0.95em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        main {
+            padding: 50px;
+        }
+
+        section {
+            margin-bottom: 50px;
+            opacity: 0;
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--gold);
+            padding-bottom: 12px;
+            margin-bottom: 25px;
+            font-size: 1.8em;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .education-item, .position-item, .publication-item, .award-item, .teaching-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: var(--light-gray);
+            border-left: 4px solid var(--accent-color);
+            transition: all 0.3s ease;
+        }
+
+        .education-item:hover, .position-item:hover, .publication-item:hover, .award-item:hover, .teaching-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+
+        h3 {
+            color: var(--primary-color);
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+
+        .institution {
+            color: var(--secondary-color);
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+            font-size: 0.95em;
+        }
+
+        .book-project {
+            margin-bottom: 25px;
+            padding: 25px;
+            background: linear-gradient(135deg, var(--light-gray), #fff);
+            border-left: 5px solid var(--gold);
+            border-radius: 5px;
+        }
+
+        .book-title {
+            font-style: italic;
+            color: var(--primary-color);
+            font-size: 1.15em;
+            margin-bottom: 8px;
+        }
+
+        .publisher {
+            color: var(--secondary-color);
+        }
+
+        .publication-item {
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .publication-item::before {
+            content: '▸';
+            position: absolute;
+            left: 15px;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .publication-title {
+            font-style: italic;
+        }
+
+        .journal-name {
+            color: var(--secondary-color);
+            font-weight: 500;
+        }
+
+        .service-list, .media-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .service-list li, .media-list li {
+            padding: 10px 0;
+            padding-left: 25px;
+            position: relative;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .service-list li::before, .media-list li::before {
+            content: '◆';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+
+        .freelance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .freelance-item {
+            padding: 12px 15px;
+            background: var(--light-gray);
+            border-left: 3px solid var(--secondary-color);
+            transition: all 0.3s;
+            font-style: italic;
+        }
+
+        .freelance-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        .creative-item {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: var(--light-gray);
+            border-left: 3px solid var(--gold);
+        }
+
+        .print-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--primary-color);
+            color: var(--white);
+            border: none;
+            padding: 15px 25px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1em;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .print-button:hover {
+            transform: translateY(-3px);
+            background: var(--secondary-color);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 40px 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            main {
+                padding: 30px 20px;
+            }
+            
+            nav ul {
+                gap: 15px;
+            }
+            
+            nav a {
+                font-size: 0.85em;
+            }
+            
+            .item-header {
+                flex-direction: column;
+            }
+            
+            .date {
+                margin-top: 5px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+            
+            .print-button, nav {
+                display: none;
+            }
+            
+            section {
+                page-break-inside: avoid;
+            }
+            
+            header {
+                background: var(--primary-color) !important;
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Teddy Duncan Jr.</h1>
+            <div class="title">Assistant Professor of English</div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📧</span>
+                    <a href="mailto:teddyduncanjr407@gmail.com">teddyduncanjr407@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span>📱</span>
+                    <span>407-541-7139</span>
+                </div>
+                <div class="contact-item">
+                    <span>📍</span>
+                    <span>206 Mc Quigg Avenue, Orlando, FL 32805</span>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#positions">Positions</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#honors">Honors</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#media">Media</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="education">
+                <h2>Education</h2>
+                
+                <div class="education-item">
+                    <div class="item-header">
+                        <div>
+                            <h3>Master of Arts in English</h3>
+                            <div class="institution">University of South Florida</div>
+                        </div>
+                        <div class="date">Spring 2022</div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="item-header">
+                        <div>
+                            <h3>Bachelor of Arts in English</h3>
+                            <div class="institution">University of Central Florida</div>
+                        </div>
+                        <div class="date">Spring 2020</div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="item-header">
+                        <div>
+                            <h3>Associate of Arts in General Education</h3>
+                            <div class="institution">Valencia College</div>
+                        </div>
+                        <div class="date">Fall 2017</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="positions">
+                <h2>Positions Held</h2>
+                
+                <div class="position-item">
+                    <div class="item-header">
+                        <div>
+                            <h3>Assistant Professor</h3>
+                            <div class="institution">Valencia College</div>
+                        </div>
+                        <div class="date">2024 - Current</div>
+                    </div>
+                </div>
+
+                <div class="position-item">
+                    <div class="item-header">
+                        <div>
+                            <h3>Full-Time Professor</h3>
+                            <div class="institution">Keiser University</div>
+                        </div>
+                        <div class="date">2022 - 2024</div>
+                    </div>
+                </div>
+
+                <div class="position-item">
+                    <div class="item-header">
+                        <div>
+                            <h3>Graduate Teaching Assistant</h3>
+                            <div class="institution">University of South Florida</div>
+                        </div>
+                        <div class="date">2020 - 2022</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="books">
+                <h2>Book Projects</h2>
+                
+                <div class="book-project">
+                    <div class="book-title">Zoological Lacan: A Lacanian Framework for Animality and Humanness</div>
+                    <div class="publisher">Routledge, Lines of the Symbolic Series, Under Contract</div>
+                </div>
+
+                <div class="book-project">
+                    <div class="book-title">Interpreting Meat: Theorizing the Commodification and Consumption of Animals</div>
+                    <div class="publisher">McFarland & Company, December 2024</div>
+                </div>
+            </section>
+
+            <section id="publications">
+                <h2>Scholarly Publications (Peer-Reviewed)</h2>
+                
+                <div class="publication-item">
+                    <div class="publication-title">"The Limits of Understanding: Lacanian Pedagogy in the Composition Classroom"</div>
+                    <div class="journal-name">Journal on Excellence in College Teaching</div>
+                    <div class="date">May 2025</div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">"Recognizing Exploitation and Rejecting Analogy: An Analysis of the Meat-Commodity"</div>
+                    <div class="journal-name">Between the Species</div>
+                    <div class="date">March 2024</div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">"The Inexplicable Real and Silent (Female) Desire: A Lacanian Approach to the Unsaid in The Awakening"</div>
+                    <div class="journal-name">Midwest Quarterly</div>
+                    <div class="date">January 2023</div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">"Politics of Dismissal and Death: Tentacle, Necropolitics, and the Political Subject"</div>
+                    <div class="journal-name">Latin American Literary Review</div>
+                    <div class="date">November 2022</div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">"Žižekian Ideology and the 'Sympathetic' Slave-Owner: Ostensible Necessity of Slavery in Our Nig and Minnie's Sacrifice"</div>
+                    <div class="journal-name">International Journal of Žižek Studies</div>
+                    <div class="date">July 2021</div>
+                </div>
+
+                <h2 style="margin-top: 40px;">Scholarly Reviews</h2>
+                
+                <div class="publication-item">
+                    <div class="publication-title">"Review of Animals, Ethics and Us"</div>
+                    <div class="journal-name">Between the Species</div>
+                    <div class="date">May 2023</div>
+                </div>
+            </section>
+
+            <section id="teaching">
+                <h2>Teaching Experience</h2>
+                
+                <div class="teaching-item">
+                    <div class="item-header">
+                        <div>
+                            <h3>Professor</h3>
+                            <div class="institution">Valencia College (Osceola Campus)</div>
+                        </div>
+                        <div class="date">January 2024 - Present</div>
+                    </div>
+                    <ul style="margin-top: 10px; padding-left: 20px;">
+                        <li>Composition I (ENC 1101), Online and In-Person</li>
+                        <li>Composition II (ENC 1102), Online and In-Person</li>
+                    </ul>
+                </div>
+
+                <div class="teaching-item">
+                    <div class="item-header">
+                        <div>
+                            <h3>Faculty Professor</h3>
+                            <div class="institution">Keiser University</div>
+                        </div>
+                        <div class="date">June 2022 - July 2024</div>
+                    </div>
+                    <ul style="margin-top: 10px; padding-left: 20px;">
+                        <li>Basic English (ENC 0001), In-Person</li>
+                        <li>Composition I (ENC 1101), In-Person</li>
+                        <li>Composition II (ENC 2102), In-Person</li>
+                        <li>American Literature (AML 1000), In-Person</li>
+                        <li>Writing For Managers (ENC 3213), In-Person</li>
+                        <li>Research Writing (ENC 4313), In-Person</li>
+                    </ul>
+                </div>
+
+                <div class="teaching-item">
+                    <div class="item-header">
+                        <div>
+                            <h3>Graduate Teaching Assistant (Instructor of Record)</h3>
+                            <div class="institution">University of South Florida</div>
+                        </div>
+                        <div class="date">August 2020 - May 2022</div>
+                    </div>
+                    <ul style="margin-top: 10px; padding-left: 20px;">
+                        <li>Composition I (ENC 1101), Online and In-Person</li>
+                        <li>Composition II (ENC 1102), Online and In-Person</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="honors">
+                <h2>Honors and Awards</h2>
+                
+                <div class="award-item">
+                    <h3>Summer Mentor Fellowship</h3>
+                    <div class="institution">University of Central Florida</div>
+                    <div class="date">Summer 2025</div>
+                    <p>Awarded to write chapter of contracted book. ($4,500)</p>
+                </div>
+
+                <div class="award-item">
+                    <h3>TLC Appreciation Award</h3>
+                    <div class="institution">Keiser University</div>
+                    <div class="date">Fall 2023</div>
+                    <p>Awarded for service to campus.</p>
+                </div>
+
+                <div class="award-item">
+                    <h3>Irving Deer Memorial Scholarship Award</h3>
+                    <div class="institution">University of South Florida</div>
+                    <div class="date">Spring 2022</div>
+                    <p>Awarded based on merit of graduate research writing. ($1,275)</p>
+                </div>
+
+                <div class="award-item">
+                    <h3>Distinguished Undergraduate Research Award</h3>
+                    <div class="institution">University of Central Florida</div>
+                    <div class="date">Spring 2020</div>
+                    <p>Awarded to undergraduates based on merit of conducted research. ($250)</p>
+                </div>
+
+                <div class="award-item">
+                    <h3>Selected Poetry Award</h3>
+                    <div class="institution">Fallero Literary Magazine, Valencia College</div>
+                    <div class="date">Spring 2017</div>
+                    <p>($75)</p>
+                </div>
+            </section>
+
+            <section id="conference">
+                <h2>Conference Presentations</h2>
+                
+                <div class="publication-item">
+                    <div class="publication-title">"The Impossibility of Understanding: Lacanian Pedagogy in the Composition Classroom"</div>
+                    <div class="journal-name">Florida College English Association Conference</div>
+                    <div class="date">2025</div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">"The 'Grievability' of Two Indigenous Women: Emerging from the Frames of Criminal Narratives"</div>
+                    <div class="journal-name">English Symposium, UCF</div>
+                    <div class="date">2021</div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">"Allen Ginsberg's Kaddish: A Definitive American Mid-Twentieth-Century Poem"</div>
+                    <div class="journal-name">Showcase of Undergraduate Research Excellence, UCF</div>
+                    <div class="date">2020 (Cancelled due to Covid-19)</div>
+                </div>
+            </section>
+
+            <section id="service">
+                <h2>Service</h2>
+                
+                <ul class="service-list">
+                    <li>Valencia Faculty Learning Committee Convener, 2024-</li>
+                    <li>Keiser University Literacy Committee Chair, 2023-2024</li>
+                    <li>Keiser TLC Coordinator (Technology and Learning Center), 2023-2024</li>
+                    <li>Editor of Keiser University Tampa Literary Magazine, 2023-2024</li>
+                    <li>Peer-Review Reader, Between the Species</li>
+                    <li>Peer-Review Reader, Violence: An International Journal</li>
+                    <li>Peer-Review Reader, English Journal</li>
+                    <li>NCTE Member</li>
+                    <li>FCEA Member (Florida College English Association)</li>
+                    <li>Graduate Mentorship Program (Mentored Two USF Undergraduate English Students), September 2020-2022</li>
+                </ul>
+            </section>
+
+            <section id="freelance">
+                <h2>Freelance Writing (Non-Peer Review)</h2>
+                
+                <div class="freelance-grid">
+                    <div class="freelance-item">Architecture Expo Magazine</div>
+                    <div class="freelance-item">Arte Fuse</div>
+                    <div class="freelance-item">ASAP Review Journal</div>
+                    <div class="freelance-item">Bridddge Art Gallery</div>
+                    <div class="freelance-item">Creative Loafing Tampa</div>
+                    <div class="freelance-item">Compact Magazine</div>
+                    <div class="freelance-item">Dragon, Crab, and Turtle Art Gallery</div>
+                    <div class="freelance-item">Document Journal</div>
+                    <div class="freelance-item">Emerald Magazine</div>
+                    <div class="freelance-item">Fad Magazine</div>
+                    <div class="freelance-item">Maudlin House</div>
+                    <div class="freelance-item">Medical Expo Magazine</div>
+                    <div class="freelance-item">Merion West Magazine</div>
+                    <div class="freelance-item">Observer (New York)</div>
+                    <div class="freelance-item">Vox Populi Newspaper</div>
+                    <div class="freelance-item">Washington Independent Review of Books</div>
+                </div>
+            </section>
+
+            <section id="media">
+                <h2>Media Coverage / Interviews</h2>
+                
+                <ul class="media-list">
+                    <li>Interview Office Hours: The Professor is In Podcast, 2025</li>
+                    <li>Interview by Sarx Magazine on Interpreting Meat, Online, 2025</li>
+                    <li>Interview by Washington Independent Review of Books on Interpreting Meat, Online, 2025</li>
+                </ul>
+            </section>
+
+            <section id="certifications">
+                <h2>Certifications</h2>
+                
+                <div class="award-item">
+                    <p>Certified Online Instructor (obtained through USF's online instructor certification course)</p>
+                </div>
+            </section>
+
+            <section id="creative">
+                <h2>Creative Publications</h2>
+                
+                <div class="creative-item">
+                    <div class="publication-title">"Sadness is a Dialectic"</div>
+                    <div class="journal-name">Forever Magazine, Online, 2023</div>
+                </div>
+
+                <div class="creative-item">
+                    <div class="publication-title">"Despair and the Inscrutability of a Bush"</div>
+                    <div class="journal-name">Expat Magazine, Online, 2022</div>
+                </div>
+
+                <div class="creative-item">
+                    <div class="publication-title">"Notes of a Household Gnat"</div>
+                    <div class="journal-name">SR-50 Magazine, Issue 3.5, Print, 2020</div>
+                </div>
+
+                <div class="creative-item">
+                    <div class="publication-title">"An Absolute Study"</div>
+                    <div class="journal-name">Chapbook published by Death of workers whilst building skyscrapers press (UK), Print, 2019</div>
+                </div>
+
+                <div class="creative-item">
+                    <div class="publication-title">"Theme Park Suicide"</div>
+                    <div class="journal-name">X-Ray Magazine, Online, 2018</div>
+                </div>
+
+                <div class="creative-item">
+                    <div class="publication-title">"At Ginsberg's Grave"</div>
+                    <div class="journal-name">Occulum Journal, Online, 2018</div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <button class="print-button" onclick="window.print()">🖨️ Print CV</button>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const navHeight = document.querySelector('nav').offsetHeight;
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 20;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Add animation delays to sections
+        const sections = document.querySelectorAll('section');
+        sections.forEach((section, index) => {
+            section.style.animationDelay = `${index * 0.1}s`;
+        });
+
+        // Highlight active section in navigation
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= s
