@@ -10,11 +10,11 @@ title: Teddy Duncan Jr. - Academic Portfolio
 ### Valencia College
 
 ### About Me
-I am an Assistant Professor of English at Valencia College with a passion for Lacanian psychoanalysis, critical theory, and animal studies. My work explores the intersections of literature, philosophy, and cultural criticism, with forthcoming books on Lacanian frameworks for animality and the commodification of animals.
+I am an Assistant Professor of English at Valencia College with a passion for Lacanian psychoanalysis, critical theory, and animal studies. My work explores the intersections of literature, philosophy, and cultural criticism, with a forthcoming books on Lacanian frameworks for animality. My first book, Interpreting Meat, was published in late 2024. 
 
 ### Research Interests
 - Lacanian Psychoanalysis and Pedagogy
-- Critical Animal Studies
+- Animal Studies
 - American Literature
 - Composition Theory
 - Continental Philosophy (Žižek, Lacan)
@@ -41,7 +41,7 @@ I am an Assistant Professor of English at Valencia College with a passion for La
 3. "Allen Ginsberg's Kaddish: A Definitive American Mid-Twentieth-Century Poem," Showcase of Undergraduate Research Excellence, UCF, 2020 (Accepted, cancelled due to COVID-19)
 
 ### Teaching
-Currently teaching Composition I & II at Valencia College (Osceola Campus), with previous experience at Keiser University and University of South Florida. Certified Online Instructor with expertise in both traditional and digital pedagogies.
+Currently teaching Composition I & II at Valencia College (Osceola Campus), with previous experience at full-time at Keiser University and as a Graduate Teaching Instructor at University of South Florida.
 
 ### Recent Honors
 - Summer Mentor Fellowship, UCF, 2025 ($4,500)
