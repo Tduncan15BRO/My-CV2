@@ -1,0 +1,50 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom styles for your portfolio */
+
+/* Header customizations */
+header {
+    background: #2c3e50;  /* Dark blue-gray */
+}
+
+header h1 {
+    color: #ecf0f1;  /* Light gray */
+}
+
+header a.button {
+    background: #3498db;  /* Bright blue */
+}
+
+/* Sidebar button */
+aside a.button {
+    background: #2980b9;  /* Darker blue */
+}
+
+/* Main content heading colors */
+#main-content h1:before {
+    color: #3498db;
+}
+
+#main-content h2:before {
+    color: #3498db;
+}
+
+#main-content h3 {
+    color: #2c3e50;
+}
+
+#main-content h4 {
+    color: #34495e;
+}
+
+/* Link colors */
+a {
+    color: #3498db;
+}
+
+a:hover {
+    color: #2980b9;
+}
