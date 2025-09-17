@@ -59,8 +59,5 @@ title: Teaching Experience
 - Integrated research methods with composition pedagogy
 - Semesters Taught: Spring 2021, Summer 2021, Spring 2022
 
-## Teaching Philosophy
-My pedagogical approach integrates Lacanian psychoanalytic theory with composition studies, emphasizing the impossibility of complete understanding as a productive space for learning. I focus on creating inclusive classrooms where students develop critical thinking skills through engagement with complex texts and ideas.
-
 ## Certifications
 - Certified Online Instructor (University of South Florida)
