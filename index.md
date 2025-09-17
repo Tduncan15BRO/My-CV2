@@ -10,13 +10,14 @@ title: Teddy Duncan Jr. - Academic Portfolio
 ### Valencia College
 
 ### About Me
-I am an Assistant Professor of English at Valencia College with a passion for Lacanian psychoanalysis, critical theory, and animal studies. My work explores the intersections of literature, philosophy, and cultural criticism, with a forthcoming books on Lacanian frameworks for animality. My first book, Interpreting Meat, was published in late 2024. 
+I am an Assistant Professor of English at Valencia College and freelance writer. My academic work on psychoanalysis, animals, and literature has been published in journals such as *Journal on Excellence in College Teaching*, the *International Journal of Žižek Studies*, *The Latin American Literary Review*, *The Midwest Quarterly*, and *Between the Species*. Additionally, as a freelance writer, I have written art criticism and book reviews for *The Observer*, *Compact Magazine*, *Document Journal*, *Washington Independent Review of Books*, and *Creative Loafing* (Tampa). My first academic book, *Interpreting Meat*, was published in late 2024, and I am currently working on a book bringing together Lacanian psychoanalysis and animality, tentatively titled *Zoological Lacan*.
 
 ### Research Interests
-- Lacanian Psychoanalysis and Pedagogy
+- Lacanian Psychoanalysis
 - Animal Studies
 - American Literature
 - Composition Theory
+- Pedagogy
 - Continental Philosophy (Žižek, Lacan)
 
 ### Publications and/or Conferences
