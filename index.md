@@ -39,15 +39,14 @@ I am an Assistant Professor of English at Valencia College and freelance writer.
 #### Conference Presentations
 1. "The Impossibility of Understanding: Lacanian Pedagogy in the Composition Classroom," Florida College English Association Conference, 2025
 2. "The 'Grievability' of Two Indigenous Women: Emerging from the Frames of Criminal Narratives," English Symposium, UCF, 2021
-3. "Allen Ginsberg's Kaddish: A Definitive American Mid-Twentieth-Century Poem," Showcase of Undergraduate Research Excellence, UCF, 2020 (Accepted, cancelled due to COVID-19)
 
 ### Teaching
-Currently teaching Composition I & II at Valencia College (Osceola Campus), with previous experience at full-time at Keiser University and as a Graduate Teaching Instructor at University of South Florida.
+Currently teaching Composition I & II as an assistant professor at Valencia College (Osceola Campus), with previous experience full-time at Keiser University and as a Graduate Teaching Instructor at University of South Florida.
 
 ### Recent Honors
 - Summer Mentor Fellowship, UCF, 2025 ($4,500)
-- Irving Deer Memorial Scholarship Award, USF, 2022 ($1,275)
 - TLC Appreciation Award, Keiser University, 2023
+- Irving Deer Memorial Scholarship Award, USF, 2022 ($1,275)
 
 ### Contact
 - Email: [teddyduncanjr407@gmail.com](mailto:teddyduncanjr407@gmail.com)
@@ -56,7 +55,6 @@ Currently teaching Composition I & II at Valencia College (Osceola Campus), with
 
 ### Follow Me
 - [GitHub](https://github.com/Tduncan15BRO)
-- [LinkedIn](https://linkedin.com/in/teddy-duncan-jr) 
 - [Academic Portfolio](https://tduncan15bro.github.io/My-CV2/)
 
 ---
