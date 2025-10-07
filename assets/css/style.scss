@@ -1,50 +1,306 @@
----
----
+/* GitHub-Inspired Professional Styling */
 
-@import "{{ site.theme }}";
+:root {
+  --color-canvas-default: #ffffff;
+  --color-canvas-subtle: #f6f8fa;
+  --color-border-default: #d0d7de;
+  --color-border-muted: #e5e7eb;
+  --color-fg-default: #24292f;
+  --color-fg-muted: #57606a;
+  --color-accent-fg: #0969da;
+  --color-accent-emphasis: #0969da;
+  --color-success-emphasis: #1a7f37;
+  --color-danger-emphasis: #cf222e;
+  --color-btn-bg: #f6f8fa;
+  --color-btn-border: rgba(31, 35, 40, 0.15);
+  --color-btn-hover-bg: #f3f4f6;
+  --color-btn-hover-border: rgba(31, 35, 40, 0.15);
+  --color-btn-active-bg: #ebecf0;
+  --color-btn-primary-bg: #2da44e;
+  --color-btn-primary-hover-bg: #2c974b;
+}
 
-/* Custom styles for your portfolio */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-/* Header customizations */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-fg-default);
+  background-color: var(--color-canvas-default);
+}
+
+/* Container */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Header */
 header {
-    background: #2c3e50;  /* Dark blue-gray */
+  background-color: var(--color-canvas-default);
+  border-bottom: 1px solid var(--color-border-default);
+  padding: 16px 0;
+  margin-bottom: 24px;
 }
 
-header h1 {
-    color: #ecf0f1;  /* Light gray */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 16px;
 }
 
-header a.button {
-    background: #3498db;  /* Bright blue */
+h1 {
+  font-size: 32px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border-muted);
 }
 
-/* Sidebar button */
-aside a.button {
-    background: #2980b9;  /* Darker blue */
+h2 {
+  font-size: 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border-muted);
+  margin-top: 24px;
 }
 
-/* Main content heading colors */
-#main-content h1:before {
-    color: #3498db;
+h3 {
+  font-size: 20px;
+  margin-top: 24px;
 }
 
-#main-content h2:before {
-    color: #3498db;
-}
-
-#main-content h3 {
-    color: #2c3e50;
-}
-
-#main-content h4 {
-    color: #34495e;
-}
-
-/* Link colors */
+/* Links */
 a {
-    color: #3498db;
+  color: var(--color-accent-fg);
+  text-decoration: none;
 }
 
 a:hover {
-    color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid;
+  border-radius: 6px;
+  appearance: none;
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  background-color: var(--color-btn-bg);
+  border-color: var(--color-btn-border);
+  color: var(--color-fg-default);
+}
+
+.btn:hover {
+  background-color: var(--color-btn-hover-bg);
+  border-color: var(--color-btn-hover-border);
+}
+
+.btn:active {
+  background-color: var(--color-btn-active-bg);
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: var(--color-btn-primary-bg);
+  border-color: rgba(27, 31, 36, 0.15);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-btn-primary-hover-bg);
+}
+
+/* Cards/Boxes */
+.box {
+  background-color: var(--color-canvas-default);
+  border: 1px solid var(--color-border-default);
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.box-header {
+  padding: 16px;
+  margin: -16px -16px 16px -16px;
+  background-color: var(--color-canvas-subtle);
+  border-bottom: 1px solid var(--color-border-default);
+  border-radius: 6px 6px 0 0;
+  font-weight: 600;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 32px;
+  margin-bottom: 16px;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+/* Code blocks */
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(175, 184, 193, 0.2);
+  border-radius: 6px;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: var(--color-canvas-subtle);
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+pre code {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+/* Tables */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+table th {
+  font-weight: 600;
+  padding: 6px 13px;
+  border: 1px solid var(--color-border-default);
+  background-color: var(--color-canvas-subtle);
+}
+
+table td {
+  padding: 6px 13px;
+  border: 1px solid var(--color-border-default);
+}
+
+table tr {
+  background-color: var(--color-canvas-default);
+  border-top: 1px solid var(--color-border-muted);
+}
+
+table tr:nth-child(2n) {
+  background-color: var(--color-canvas-subtle);
+}
+
+/* Forms */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  background-color: var(--color-canvas-default);
+  border: 1px solid var(--color-border-default);
+  border-radius: 6px;
+  outline: none;
+  box-shadow: inset 0 1px 0 rgba(208, 215, 222, 0.2);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--color-accent-emphasis);
+  box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.3);
+}
+
+/* Labels */
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 2px 7px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  border-radius: 2em;
+  background-color: var(--color-accent-emphasis);
+  color: #ffffff;
+}
+
+.badge-success {
+  background-color: var(--color-success-emphasis);
+}
+
+.badge-danger {
+  background-color: var(--color-danger-emphasis);
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 16px;
+}
+
+/* Horizontal rule */
+hr {
+  height: 0.25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: var(--color-border-default);
+  border: 0;
+}
+
+/* Blockquotes */
+blockquote {
+  padding: 0 1em;
+  color: var(--color-fg-muted);
+  border-left: 0.25em solid var(--color-border-default);
+  margin-bottom: 16px;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid var(--color-border-default);
+}
+
+.nav-item {
+  padding: 8px 16px;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.nav-item:hover {
+  border-bottom-color: var(--color-border-default);
+}
+
+.nav-item.active {
+  border-bottom-color: var(--color-accent-emphasis);
+  font-weight: 600;
 }
