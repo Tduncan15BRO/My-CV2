@@ -1,4 +1,3 @@
-theme: jekyll-theme-modernist
-
-title: Teddy Duncan Jr. – Academic Portfolio
+remote_theme: pages-themes/modernist@v0.2.0
+title: Teddy Duncan Jr. - Academic Portfolio
 description: CV, teaching experience, and projects
