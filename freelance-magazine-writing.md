@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Freelance Magazine Writing
+permalink: /freelance-magazine-writing.html
 ---
 # Freelance Magazine Writing
 
