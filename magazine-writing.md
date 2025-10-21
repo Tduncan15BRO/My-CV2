@@ -1,14 +1,7 @@
-yaml---
-layout: default
-title: Magazine Freelance Writing
-permalink: /magazine-writing/
----
 ---
 layout: default
-title: Magazine Writing
-permalink: /magazine-writing/
+title: Freelance Magazine Writing
 ---
-
 # Freelance Magazine Writing
 
 ## Published Work
