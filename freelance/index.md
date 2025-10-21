@@ -22,7 +22,7 @@ title: Freelance Magazine Writing
 *ArchiExpo e-Magazine*, 2024  
 [Read the full article →](https://emag.archiexpo.com/beyond-the-canvas-art-attention-and-the-post-human-frontier-at-art-basel-miami/)
 
-**"Art Basel Miami Dispatch: Žižek"**  
+**"Heaven, Hell, and Nothingness"**  
 *Document Journal*, December 2023  
 [Read the full article →](https://www.documentjournal.com/2023/12/art-basel-miami-dispatch-zizek/)
 
@@ -36,7 +36,7 @@ title: Freelance Magazine Writing
 *Emerald Magazine*, 2021  
 [Read the full interview →](https://theemeraldmagazine.com/inside-hamiltons-pharmacopeia-with-chemist-and-filmmaker-hamilton-morris/)
 
-**"Doctor Carl Hart: Drug Use for Grown-Ups"**  
+**"Dr. Carl Hart champions life, liberty, and the pursuit of psychoactive drugs"**  
 *Document Journal*, December 2022  
 [Read the full interview →](https://www.documentjournal.com/2022/12/doctor-carl-hart-drug-use-for-grown-ups-columbia-professor-freedom-politics-psychadelic-exceptionalism/)
 
