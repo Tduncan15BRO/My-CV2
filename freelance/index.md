@@ -10,7 +10,7 @@ I have written on art, literature, and politics, for publications such as The *O
 
 ## Selected Work
 
-### Art Criticism
+## Art Criticism
 
 **"Review: Nostalgia for My Island at Rollins College Museum of Art"**  
 *Observer*, December 2024  
@@ -24,7 +24,7 @@ I have written on art, literature, and politics, for publications such as The *O
 *Document Journal*, December 2023  
 [Read the full article →](https://www.documentjournal.com/2023/12/art-basel-miami-dispatch-zizek/)
 
-### Interviews 
+## Interviews 
 
 **"Inside Hamilton's Pharmacopeia with Chemist and Filmmaker, Hamilton Morris"**  
 *Emerald Magazine*, 2021  
@@ -34,7 +34,7 @@ I have written on art, literature, and politics, for publications such as The *O
 *Document Journal*, December 2022  
 [Read the full interview →](https://www.documentjournal.com/2022/12/doctor-carl-hart-drug-use-for-grown-ups-columbia-professor-freedom-politics-psychadelic-exceptionalism/)
 
-### Politics
+## Politics
 
 **"The Surprising Coherence of the Pro-Life Left"**  
 *Compact Magazine*, 2025
@@ -44,7 +44,7 @@ I have written on art, literature, and politics, for publications such as The *O
 *Creative Loafing Tampa Bay*, August 2024  
 [Read the full article →](https://www.cltampa.com/news/opposition-groups-say-floridas-amendment-2-isnt-about-the-right-to-hunt-and-fish-18333800/)
 
-### Book Reviews
+## Book Reviews
 
 **"The Dead Cannot Die: The Art of Mourning in What You Make of Me"**  
 *ASAP/Review*, 2025  
