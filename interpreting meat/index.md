@@ -7,14 +7,11 @@ title: Interpreting Meat - Teddy Duncan Jr.
 
 **Published December 2024 | McFarland & Company**
 
-<div style="text-align: center; margin: 40px 0; padding: 30px; background-color: #f5f5f5; border-left: 5px solid #333;">
-  <h2 style="font-size: 2.5em; line-height: 1.3; color: #333; font-weight: normal; font-style: italic;">
-    "If Duncan's book will not become a classic, then we perhaps deserve to perish."
-  </h2>
-  <p style="font-size: 1.2em; margin-top: 20px; color: #666;">
-    — Slavoj Žižek
-  </p>
-</div>
+> ## *"If Duncan's book will not become a classic, then we perhaps deserve to perish."*
+> 
+> ### — Slavoj Žižek
+
+---
 
 ## Praise for *Interpreting Meat*
 
