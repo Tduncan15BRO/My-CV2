@@ -5,7 +5,7 @@ title: Interpreting Meat - Teddy Duncan Jr.
 
 # Interpreting Meat: Theorizing the Commodification and Consumption of Animals
 
-**Published December 2024 | McFarland & Company**
+Published December 2024 | McFarland & Company
 
 > ## *"If Duncan's book will not become a classic, then we perhaps deserve to perish."*
 > 
