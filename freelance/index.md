@@ -4,7 +4,7 @@ title: Freelance Magazine Writing
 ---
 # Freelance Writing
 
-I have written on art, literature, and politics, for publications such as *Observer*, *Document Journal*, *Compact Magazine*, *FAD Magazine*, *ASAP Journal*, *Washington Independent Review of Books*, *Creative Loafing* (Tampa), and others.
+I have written on art, literature, and politics, for publications such as The *Observer*, *Document Journal*, *Compact Magazine*, *FAD Magazine*, *ASAP Journal*, *Washington Independent Review of Books*, *Creative Loafing* (Tampa), and others.
 
 **Contact:** [teddyduncanjr407@gmail.com](mailto:teddyduncanjr407@gmail.com)
 
