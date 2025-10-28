@@ -33,5 +33,6 @@ Published December 2024 | McFarland & Company
 
 ## Media Coverage
 
+- **Review**: Electronic Book Review: Review of *Interpreting Meat* (2025)
 - **Interview**: Sarx Magazine discusses *Interpreting Meat* (2025)
 - **Interview**: Washington Independent Review of Books (2025)
