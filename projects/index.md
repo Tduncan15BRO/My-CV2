@@ -31,15 +31,15 @@ title: Projects
 ### "The Inexplicable Real and Silent (Female) Desire: A Lacanian Approach to the Unsaid in The Awakening"
 - **Journal**: *Midwest Quarterly*
 - **Publication Date**: January 2023
--[Link](https://www.proquest.com/openview/4cbb566ef2a8ce0e6442ceca0a457eeb/1?pq-origsite=gscholar&cbl=41210)
+- [Link](https://www.proquest.com/openview/4cbb566ef2a8ce0e6442ceca0a457eeb/1?pq-origsite=gscholar&cbl=41210)
 ### "Politics of Dismissal and Death: Tentacle, Necropolitics, and the Political Subject"
 - **Journal**: *Latin American Literary Review*
 - **Publication Date**: November 2022
-[Link](https://lalrp.net/articles/10.26824/lalr.343)
+- [Link](https://lalrp.net/articles/10.26824/lalr.343)
 ### "Žižekian Ideology and the 'Sympathetic' Slave-Owner: Ostensible Necessity of Slavery in Our Nig and Minnie's Sacrifice"
 - **Journal**: *International Journal of Žižek Studies*
 - **Publication Date**: July 2021
-[Link](https://www.zizekstudies.org/index.php/IJZS/article/view/1199)
+- [Link](https://www.zizekstudies.org/index.php/IJZS/article/view/1199)
 ## Scholarly Reviews
 
 ### "Review of Animals, Ethics and Us"
