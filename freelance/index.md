@@ -16,13 +16,13 @@ I have written on art, literature, and politics, for publications such as The *O
 *Observer*, December 2024  
 [Read the full review →](https://observer.com/2024/12/review-nostalgia-for-my-island-rollins-college-museum-of-art/)
 
-**"Beyond the Canvas: Art, Attention, and the Post-Human Frontier at Art Basel Miami"**  
-*ArchiExpo e-Magazine*, 2024  
-[Read the full article →](https://emag.archiexpo.com/beyond-the-canvas-art-attention-and-the-post-human-frontier-at-art-basel-miami/)
-
 **"Heaven, Hell, and Nothingness at Art Basel Miami"**  
 *Document Journal*, December 2023  
 [Read the full article →](https://www.documentjournal.com/2023/12/art-basel-miami-dispatch-zizek/)
+
+**"Beyond the Canvas: Art, Attention, and the Post-Human Frontier at Art Basel Miami"**  
+*ArchiExpo e-Magazine*, 2024  
+[Read the full article →](https://emag.archiexpo.com/beyond-the-canvas-art-attention-and-the-post-human-frontier-at-art-basel-miami/)
 
 ## Interviews 
 
