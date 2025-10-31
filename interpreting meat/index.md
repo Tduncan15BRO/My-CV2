@@ -13,7 +13,7 @@ Published December 2024 | McFarland & Company
 > 
 > ### — Slavoj Žižek
 
-![Interpreting Meat Book Cover](/assets/interpreting-meat.jpg)
+![Interpreting Meat Book Cover](https://raw.githubusercontent.com/Tduncan15BRO/My-CV2/main/assets/interpreting-meat.jpg)
 ---
 
 ## Praise for *Interpreting Meat*
