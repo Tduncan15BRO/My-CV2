@@ -1,3 +1,32 @@
-remote_theme: pages-themes/modernist@v0.2.0
-title: Teddy Duncan Jr. - Academic Portfolio
-description: CV, teaching experience, and projects
+# Theme Configuration
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Site Settings
+title: Teddy Duncan Jr.
+email: teddyduncanjr407@gmail.com
+description: >-
+  Assistant Professor of English at Valencia College
+  specializing in Lacanian psychoanalysis, critical theory, and animal studies.
+baseurl: "/My-CV2"
+url: "https://tduncan15bro.github.io"
+
+# Author Information
+author:
+  name: Teddy Duncan Jr.
+  email: teddyduncanjr407@gmail.com
+
+# Minima Theme Settings
+minima:
+  skin: classic # Options: classic, dark, auto, solarized-light, solarized-dark
+  
+# Header pages (navigation)
+header_pages:
+  - index.md
+  - teaching/index.md
+  - projects/index.md
+  - cv.md
+  - interpreting-meat/index.md
+  - freelance/index.md
