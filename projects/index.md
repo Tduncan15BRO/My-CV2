@@ -35,13 +35,13 @@ title: Projects
 - **Publication Date**: January 2023
 - Abstract: Every text consists of silential gaps and wordlessness; there are points in any text where words indicate the unsaid and the inexpressible rather than being utilized as tools of immediate signification. Not only does content and form (what is present within a text) divulge something about a character or the narrative world, but what is omitted, and emphasized as absent, also similarly reveal something about a character's subjectivity and the textual world they occupy. Simply, narratives always consist of omissions--and what is excluded is just as telling as what is included. Kate Chopin's 1899 novel, The Awakening, is comprised of these significant gaps of the unutterable and the unsaid--mostly in some relation to the specific silence of female desire in the late nineteenth century (that would continue on into the twentieth century). In Lacanian thought, this kind of pervasive silence exists, and is meaningful, because there is a pronounced limit of signifiers: to Lacan there is pre-lingual phenomena and internal processes that exists beyond the bounds of the symbolic (meaning signifier or language-based) inter-subjective communication.
 - [Link](https://www.proquest.com/openview/4cbb566ef2a8ce0e6442ceca0a457eeb/1?pq-origsite=gscholar&cbl=41210)
-- 
+  
 ### "Politics of Dismissal and Death: Tentacle, Necropolitics, and the Political Subject"
 - **Journal**: *Latin American Literary Review*
 - **Publication Date**: November 2022
 - Abstract: In Rita Indiana’s novel, Tentacle, the future of the Dominic Republic is postulated as bleak and dystopian: a nuclear ecological disaster has nearly ruined the ocean, colorism and racism are pervasive, Haitians are indiscriminately executed due to an unnamed “virus”(Indiana 3), and historical class divisions, as well as wealth inequalities, are maintained. The various issues that Indiana’s future-oriented Dominican Republic is facing emerge from political contingencies: they are the result of clear choices facilitated by the political leaders of the Dominican Republic. Yet, while the text renders historical reality as contingent and liable to change, it also explicitly points out the limits of individual agency and action. Tentacle demonstrates the politico-ontological dismissal of subjects that is enacted through necropolitics. The text also recognizes the contingent nature of political formation and necropolitics, and by doing so, implicitly contests the essentialization of formerly colonized countries such as the Dominican Republic. Ultimately, I argue that the precarity of the political subject and the material-political-reality are not depicted in Tentacle as necessary or inevitable parts of some dialectic process of progression, but rather as potentially preventable or intervenable processes that evade individual agency.
 - [Link](https://lalrp.net/articles/10.26824/lalr.343)
-- 
+  
 ### "Žižekian Ideology and the 'Sympathetic' Slave-Owner: Ostensible Necessity of Slavery in Our Nig and Minnie's Sacrifice"
 - **Journal**: *International Journal of Žižek Studies*
 - **Publication Date**: July 2021
