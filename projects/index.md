@@ -21,6 +21,7 @@ title: Projects
 ### "The Limits of Understanding: Lacanian Pedagogy in the Composition Classroom"
 - **Journal**: *Journal on Excellence in College Teaching*
 - **Publication Date**: May 2025
+- Abstract: This article presents a challenge to notions of clarity—and its relation to understanding—within the college composition classroom by relying on Lacanian pedagogical theory. While the field of composition has issued criticisms against clarity in student writing, there has been less emphasis on interrogating clarity in instruction. By delineating Lacanian pedagogy, the article provides a theoretical and pedagogical framework for integrating Lacanian non-sense into the composition classroom. Through this integration of Lacanian non-sense through metaphor, the author argues that a procedural knowledge that exceeds conventional notions of understanding and provokes thought can emerge.
 - [Link](https://celt.miamioh.edu/index.php/JECT/article/view/1192)
 
 ### "Recognizing Exploitation and Rejecting Analogy: An Analysis of the Meat-Commodity"
