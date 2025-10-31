@@ -22,7 +22,7 @@ I am an Assistant Professor of English at Valencia College and freelance writer.
 
 ### Contact
 - Email: [teddyduncanjr407@gmail.com](mailto:teddyduncanjr407@gmail.com)
-  Valencia College, Osceola Campus
+- Office: Valencia College, Osceola Campus, Building 3, Room 213
   
 
 ### Follow Me
